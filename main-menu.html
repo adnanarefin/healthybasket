@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Starter Template for Bootstrap 3.3.1</title>
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+        <style>
+            
+            /*
+            .dropdown-menu.multi-column {
+               width: 400px;
+            }*/
+
+            .dropdown-menu.multi-column .dropdown-menu {
+                display: block !important;
+                position: static !important;
+                margin: 0 !important;
+                border: none !important;
+                box-shadow: none !important;
+                min-width:100px;  		                
+            }
+            .dropdown-menu.multi-column
+            {
+                margin-left: 265px;
+                top : 0px;
+                width: 580px;
+            }
+            .multi-column .row {
+                width: 580px;
+            }
+        </style>
+
+        <!--[if IE]>
+<script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+    </head>
+
+    <body>           
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-left">
+
+                <!-- sidebar -->
+                <div class="col-lg-2" id="sidebar" role="navigation">
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">All Categories</a>
+                        </li>                            
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fruit And Vegetable</a>
+                            <div class="dropdown-menu multi-column">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/orange.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Fruit</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/Cucumber.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Vegetables</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div> 
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Meat And Fish</a>
+                            <div class="dropdown-menu multi-column">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/beef.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Beef</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/mutton.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Mutton</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div> 
+                                    <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/chicken.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Chicken</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/fish.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Fish</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div>  
+                                     <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/fish.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Dry Fish</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div>
+                                     <div class="col-md-4">
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#"><img src="images/fish.jpg" /></a></li>
+                                            <li style="background-color : rgb(232, 231, 231);"><a href="#">Imported Fish</a></li>
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>                    
+                                            <li><a href="#">item 1</a></li>                                  
+                                            <li><a href="#">item 1</a></li>
+                                        </ul>
+                                    </div>                                                                                
+                                </div>
+                            </div>
+                        </li>                            
+                    </ul>
+                </div>                    
+
+            </div><!--/.row-->
+        </div><!--/.container-->
+        </div><!--/.page-container-->
+    </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+</html>

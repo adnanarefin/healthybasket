@@ -1,0 +1,268 @@
+.top-header{
+    /* border-bottom: solid 1px #ddd;*/
+}
+.search{
+
+}
+
+.logo-holder {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-element {
+    padding-top: 37px;
+    margin-left: 24px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.margin-top{
+    margin-top: 30px;
+}
+
+
+
+
+.boderless{
+    border : 0px !important;
+}
+
+.boderless:hover{
+    background-color:#FFF !important;
+}
+
+.menubar-holder{
+    color : #fff;
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    height: 52px;
+
+}
+
+.slider-padding-top{
+    padding-top : 12px;
+    padding-left : 0px;
+    padding-right: 0px;
+}
+
+.body{
+    background-color: #fafafa;
+}
+
+.right-sidebar{
+    padding-top : 13px;
+}
+.right-sidebar ul li{
+    padding-bottom : 7px;
+}
+
+.item{
+    border: 1px solid #000;    
+}
+
+.items{
+    padding-left: 15px;
+}
+
+.items div {
+    padding-left: 10px;
+    margin-left: 50px;
+    border: 1px solid #a3a3a3;
+    background-color: #fff;
+    width: 170px;
+}
+
+.row.arrivals {
+    padding-left: 13px;    
+
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+}
+
+.row.arrivals div {    
+    padding-left: 0px;
+    text-align: center;
+}
+.dl-horizontal dd {
+    margin-left: 89px !important;
+}
+
+.dl-horizontal dt{
+    width: 83px !important;
+}
+.less-bottom{
+    margin-bottom: 0px!important;
+}
+.less-bottom img {
+    height: 100px;
+    width: 131px;
+}
+
+.menu a {color:	#909090 ; }
+.menu li { list-style-type: none; color:	#909090 ;}
+.allz { border-right: 1px dotted #ccc; /*height: 210px;*/}
+.so { color:#606060 ; font-size: 12px;  }
+.sono { color:#606060 ; font-size: 11px;  }
+.imgs { border:1px dotted #ccc;}
+.all{
+    line-height: 20px;
+}
+
+
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing-h1 {
+    padding: 0px !important;
+    margin: 16px !important;
+}
+
+.header-bottom-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* left sidebar */
+.dropdown-menu.multi-column .dropdown-menu {
+    display: block !important;
+    position: static !important;
+    margin: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    min-width:100px;  		                
+}
+.dropdown-menu.multi-column
+{
+    margin-left: 164px;
+    top : 0px;
+    width: 580px;
+}
+.multi-column .row {
+    width: 580px;
+}
+.border{    
+    border-left: 1px solid #CACACA;
+    border-right: 1px solid #CACACA;
+}
+
+.border-bottom{
+    border-bottom: 1px solid #CACACA;
+}
+.arrivals h2{
+    margin: 0px;
+}
+.arrivals p{
+    padding-bottom: 10px;
+}
+
+.padding{
+    width: 301px;
+    padding: 10px 10px 10px 0;  
+}
+.padding img{
+    /*  height: 166px!important;*/
+}
+{
+    margin-left: 20px;
+}
+
+.text-allign-center{
+    text-align: center;
+}
+.btn-length{
+    width: 178px;
+}
+.h4-bottom-padding{
+    padding-bottom: 2px;
+}
+.margin-left-div div{    
+    margin-left: 60px;
+}
+/*
+.margin-left-div{
+
+padding-left: 10px;
+}*/
+
+.width {    
+    padding: 0 0 0 0!important;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {    
+    height: 408px !important;
+}
+
+
+body, .padding{
+    background: #fafafa;
+}
+
+/*
+.left-sidebar{    
+box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+-moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+-webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+}
+*/
+
+.shadow
+{
+    background-color: #fff;
+    width: 96%;
+    margin-left: 13px;
+    box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    -moz-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 4px rgba(119, 119, 119, 0.1);
+}
+
+.clean{
+    clear: both;
+}
+
+
+.form-group label{
+    padding-bottom: 10px;
+}
+
+#brand{
+    font-size: 15px;
+}
+.media-heading{
+    padding-bottom: 0px!important;
+}
+
+.top-navbar{
+    margin-bottom: 0px !important;
+}
+
+#cart{
+    margin-left: 40px;
+}
+
+.middle-header{
+    background-color: #fff;
+}
+
+.navbar-custom, .menuber-holder
+{
+    background-color: #1F2020;
+    border-color: #1F2020;
+}
+
+#main-menu a, .navbar-header-custom a{
+    color: #C7C4C4;
+}
+
+#menu2 li a:hover{
+    color: #000;
+}
+
+
+.list-inline li{
+    padding-bottom: 5px;
+}
